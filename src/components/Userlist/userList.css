@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(12, 42, 50) ;
+}
+.user-box {
+    width: 60%;
+    height: 80%;
+    background-color: rgb(13, 52, 62);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.back-btn {
+    width:12%;
+    height:8%;
+    margin-top:20px;
+    margin-left:85%;
+    cursor: pointer;
+}
+.user-box button {
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    color: #bab6b6;
+    background-color:rgba(153, 13, 13, 0.758) ;
+    outline: none;
+    border: none;
+    font-size:15px;
+    cursor: pointer;
+}
+.user-box button:hover{
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.758);
+    transform:scale(1.1);
+    transition:0.7s ;
+}
+.user-box .bck-icon {
+    font-size: 15px;
+}
+.user-box .title {
+    height: 10px;
+    margin-top: 2%;
+}
+.user-box .title h1{
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-box {
+    width: 96%;
+    height: 85%;
+    margin:20px;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-box::-webkit-scrollbar{
+    display: none;
+}
+.user-list {
+   width: 100%;
+   height: 100%;
+}
+
+.user-list li{
+    list-style: none;
+    width: 60%;
+    height: 40px;
+    padding: 5px 0px 5px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    word-spacing:2px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: #eae8e8;
+    border-radius: 10px;
+    background-color:rgba(16, 138, 12, 0.381) ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-list li:hover{
+    background-color:rgba(16, 180, 10, 0.826);
+    transition: 0.7s;
+}
+.list .dlt-btn {
+    width: 70px;
+    height: 40px;
+    background-color: rgba(153, 13, 13, 0.758);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.list .dlt-btn:hover{
+    background-color: rgba(255, 0, 0, 0.758);
+}

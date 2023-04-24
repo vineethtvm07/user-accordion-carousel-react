@@ -1,0 +1,50 @@
+.carousel {
+    width: 60%;
+    height: 600px;
+    padding: 10px;
+}
+.carouselInner {
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.home-btn {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(4, 37, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.home-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(9, 52, 90);
+} 
+.carouselInner .left-icon { 
+    height: 30px;
+
+    cursor: pointer;
+}
+.carouselInner .right-icon {
+    height: 30px;
+    margin-left: auto;
+    cursor: pointer;
+   
+}
+.carouselInner .arrow-icon {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.carouselInner .arrow-icon:hover{
+    background-color: rgba(0, 0, 0, 0.356);
+    transform:scale(1.3);
+    transition: 0.2s;
+}
+
